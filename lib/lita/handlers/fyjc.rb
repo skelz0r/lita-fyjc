@@ -2,7 +2,7 @@ module Lita
   module Handlers
     class Fyjc < Handler
 
-      route(/^\s*fyjc\s*$/, :random_fyjc, help: {
+      route(/^\s*fyjc\s*$/, :random_fyjc, command: true, help: {
         "fyjc" => "Randomly sort a Fuck Yeah Jacques Chirac"
       })
 
