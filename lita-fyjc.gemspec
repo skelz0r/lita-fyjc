@@ -1,12 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-fyjc"
   spec.version       = "0.1.0"
-  spec.authors       = ["Loïc Delmaire"]
-  spec.email         = ["loic.delmaire@gmail.com"]
-  spec.description   = "TODO: Add a description"
-  spec.summary       = "TODO: Add a summary"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.authors       = ["skelz0r"]
+  spec.email         = ["skelz0r@gmail.com"]
+  spec.description   = "Randomly sort a Fuck Yeah Jacques Chirac image."
+  spec.summary       = "Randomly sort a Fuck Yeah Jacques Chirac image."
+  spec.homepage      = ""
+  spec.license       = ""
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
