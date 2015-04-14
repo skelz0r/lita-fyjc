@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-fyjc"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["skelz0r"]
   spec.email         = ["skelz0r@gmail.com"]
   spec.description   = "Randomly sort a Fuck Yeah Jacques Chirac image."
