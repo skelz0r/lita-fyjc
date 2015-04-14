@@ -7,7 +7,7 @@ module Lita
       })
 
       def random_fyjc(r)
-        r.reply file_lines.sample
+        r.reply file_lines.sample.gsub("\n", "")
       end
 
       private

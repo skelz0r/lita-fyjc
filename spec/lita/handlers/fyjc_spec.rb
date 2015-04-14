@@ -7,6 +7,7 @@ describe Lita::Handlers::Fyjc, lita_handler: true do
 
   it "works" do
     images = File.readlines(File.expand_path(File.join(File.dirname(__FILE__), "../../../lib/lita/handlers/fyjc.txt")))
+    images.map!{ |img| img.gsub("\n", "") }
     send_message('fyjc')
 
     (images - replies).size.should == (images.length - 1)
